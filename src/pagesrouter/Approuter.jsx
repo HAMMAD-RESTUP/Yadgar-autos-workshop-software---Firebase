@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Login from '../pages/Login'
 import InsuranceHome from '../pages/InsuranceHome'
 import Home from '../pages/Home'
+import CreateBill from '../pages/Createbill'
 
 function Approuter() {
   return (
@@ -13,6 +14,7 @@ function Approuter() {
           <Route path='/' element={<Login/>} />
           <Route path='/home' element={<Home/>} />
           <Route path='/insurancehome' element={<InsuranceHome/>} />
+          <Route path='/bill' element={<CreateBill/>} />
         </Routes>
       </Router>
   
